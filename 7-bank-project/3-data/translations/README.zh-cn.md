@@ -333,4 +333,4 @@ function updateElement(id, textOrNode) {
 
 ## 作业
 
-[重构并注解你的程式码](assignment.zh-tw.md)
+[重构并注解你的程式码](assignment.zh-cn.md)

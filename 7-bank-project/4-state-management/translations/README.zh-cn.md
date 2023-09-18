@@ -277,7 +277,7 @@ const routes = {
 
 ## 作业
 
-[编写"加入交易明细"视窗](assignment.zh-tw.md)
+[编写"加入交易明细"视窗](assignment.zh-cn.md)
 
 这边有完成之后的结果：
 

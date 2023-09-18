@@ -22,7 +22,7 @@
 
 ## 课程
 
-[通过使用事件驱动编程创建一个打字游戏](../typing-game/translations/README.zh-tw.md)
+[通过使用事件驱动编程创建一个打字游戏](../typing-game/translations/README.zh-cn.md)
 
 ## 贡献者
 

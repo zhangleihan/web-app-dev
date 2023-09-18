@@ -156,5 +156,5 @@ function drawIcon(value) {
 
 ## 作业
 
-[分析网页效能](assignment.zh-tw.md)
+[分析网页效能](assignment.zh-cn.md)
 

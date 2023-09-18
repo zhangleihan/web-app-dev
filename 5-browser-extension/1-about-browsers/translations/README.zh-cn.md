@@ -163,5 +163,5 @@ npm install
 
 ## 作业
 
-[重新造型你的套件](assignment.zh-tw.md)
+[重新造型你的套件](assignment.zh-cn.md)
 

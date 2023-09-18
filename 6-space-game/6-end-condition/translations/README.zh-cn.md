@@ -219,4 +219,4 @@ npm start
 
 ## 作业
 
-[建立一款游戏](assignment.zh-tw.md)
+[建立一款游戏](assignment.zh-cn.md)

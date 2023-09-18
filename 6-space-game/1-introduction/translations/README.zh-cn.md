@@ -221,4 +221,4 @@ eventEmitter.on(Messages.HERO_MOVE_LEFT, () => {
 
 ## 作业
 
-[建立游戏雏形](assignment.zh-tw.md)
+[建立游戏雏形](assignment.zh-cn.md)

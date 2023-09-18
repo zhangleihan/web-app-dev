@@ -213,4 +213,4 @@ npm start
 
 ## 作业
 
-[把玩 Canvas API](assignment.zh-tw.md)
+[把玩 Canvas API](assignment.zh-cn.md)

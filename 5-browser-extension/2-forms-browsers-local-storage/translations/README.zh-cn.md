@@ -220,5 +220,5 @@ async function displayCarbonUsage(apiKey, region) {
 
 ## 作业
 
-[认领一项 API](assignment.zh-tw.md)
+[认领一项 API](assignment.zh-cn.md)
 

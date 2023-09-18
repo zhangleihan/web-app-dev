@@ -294,4 +294,4 @@ async function register() {
 
 ## 作业
 
-[造型化你的银行程式](assignment.zh-tw.md)
+[造型化你的银行程式](assignment.zh-cn.md)

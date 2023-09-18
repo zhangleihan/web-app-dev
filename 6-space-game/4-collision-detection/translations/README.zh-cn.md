@@ -294,4 +294,4 @@ npm start
 
 ## 作业
 
-[探索碰撞](assignment.zh-tw.md)
+[探索碰撞](assignment.zh-cn.md)

@@ -186,4 +186,4 @@ npm start
 
 ## 作业
 
-[建立计分游戏](assignment.zh-tw.md)
+[建立计分游戏](assignment.zh-cn.md)

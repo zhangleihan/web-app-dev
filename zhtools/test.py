@@ -15,7 +15,8 @@ print(new)
 #relative_path ="7-bank-project/2-forms/translations/"
 #relative_path ="7-bank-project/3-data/translations/"
 #relative_path ="7-bank-project/4-state-management/translations/"
-relative_path ="7-bank-project/api/translations/"
+#relative_path ="7-bank-project/api/translations/"
+relative_path ="4-typing-game/typing-game/translations/"
 pathin = relative_path+"README.zh-tw.md"
 pathout = relative_path+"README.zh-cn.md"
 with open(pathin, 'r', encoding='utf-8') as fr, open(pathout, 'w', encoding='utf-8') as fw:

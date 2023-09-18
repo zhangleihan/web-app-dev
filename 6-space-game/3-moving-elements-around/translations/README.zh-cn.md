@@ -385,4 +385,4 @@ npm start
 
 ## 作业
 
-[为你的程式做注解](assignment.zh-tw.md)
+[为你的程式做注解](assignment.zh-cn.md)
