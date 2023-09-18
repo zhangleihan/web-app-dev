@@ -198,4 +198,4 @@ JavaScript 偶尔会因为其对于数据类型令人意外的处理方式而被
 
 ## 作业
 
-[数据类型练习](assignment.zh-cn.md)
+[数据类型练习](./assignment.zh-cn.md)
