@@ -17,7 +17,7 @@ HTML，全称 HyperText Markup Language，它是网页的骨架。如果说 CSS 
 
 在你的电脑上，创建一个名为 'terrarium' 的文件夹，并且在其中创建 'index.html'。你可以在 Visual Studio Code 中打开一个新的 VS Code 窗口去创建你的 terrarium 文件夹，点击「打开文件夹」来查看你的文件目录。在侧边管理面板中点击微小的「文档」按钮來创建新的文件：
 
-![VS Code 的侧边管理面板](../images/vs-code-index.png)
+![VS Code 的侧边管理面板](./images/vs-code-index.png)
 
 也可以这样
 
