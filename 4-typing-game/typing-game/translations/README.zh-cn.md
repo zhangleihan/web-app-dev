@@ -336,4 +336,4 @@ typedValueElement.addEventListener('input', () => {
 
 ## 作业
 
-[建立一款新的键盘游戏](assignment.zh-tw.md)
+[建立一款新的键盘游戏](assignment.zh-cn.md)

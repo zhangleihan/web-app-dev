@@ -1,6 +1,6 @@
 # 花艺瓶项目 Part 1： HTML 简介
 
-![HTML 简介](/sketchnotes/webdev101-html.png)
+![HTML 简介](../../sketchnotes/webdev101-html.png)
 > 由 [Tomomi Imura](https://twitter.com/girlie_mac) 绘制
 
 ## 课前测试

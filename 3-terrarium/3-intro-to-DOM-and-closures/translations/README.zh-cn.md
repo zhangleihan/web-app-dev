@@ -1,6 +1,6 @@
 # 盆栽盒专案 Part 3 - DOM 元素控制与闭包
 
-![DOM 元素与闭包](/sketchnotes/webdev101-js.png)
+![DOM 元素与闭包](../../sketchnotes/webdev101-js.png)
 > 由 [Tomomi Imura](https://twitter.com/girlie_mac) 绘制
 
 ## 课前测验
@@ -19,7 +19,7 @@
 
 想像 DOM 就像一棵树，表现出所有操作网页的方式。多样的 APIs (Application Program Interfaces) 提供程式开发者，依照自己使用的程式语言，以存取、编辑、编排等方式管理 DOM 元素。
 
-![DOM 树的表达](../images/dom-tree.png)
+![DOM 树的表达](./images/dom-tree.png)
 
 > HTML 语法会参考 DOM 的呈现方式。出自 [Olfa Nasraoui](https://www.researchgate.net/publication/221417012_Profile-Based_Focused_Crawler_for_Social_Media-Sharing_Websites)。
 
@@ -215,5 +215,5 @@ function stopElementDrag() {
 
 ## 作业
 
-[用 DOM 做更多事](assignment.zh-tw.md)
+[用 DOM 做更多事](assignment.zh-cn.md)
 
