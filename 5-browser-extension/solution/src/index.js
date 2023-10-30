@@ -14,19 +14,20 @@ const fossilfuel = document.querySelector('.fossil-fuel');
 const myregion = document.querySelector('.my-region');
 const clearBtn = document.querySelector('.clear-btn');
 
-calculateColor = async (value) => {
+const calculateColor = async (value) => {
 	let co2Scale = [0, 150, 600, 750, 800];
 	let colors = ['#2AA364', '#F5EB4D', '#9E4229', '#381D02', '#381D02'];
 
-	let closestNum = co2Scale.sort((a, b) => {
+	let closestNum = co2Scale.slice().sort((a, b) => {
 		return Math.abs(a - value) - Math.abs(b - value);
 	})[0];
-	//console.log(value + ' is closest to ' + closestNum);
-	let num = (element) => element > closestNum;
+	console.log(value + ' is closest to ' + closestNum);
+	// let num = (element) => element > closestNum;
+	let num = (element) => element === closestNum;
 	let scaleIndex = co2Scale.findIndex(num);
 
 	let closestColor = colors[scaleIndex];
-	//console.log(scaleIndex, closestColor);
+	console.log(scaleIndex, closestColor);
 
 	chrome.runtime.sendMessage({ action: 'updateIcon', value: { color: closestColor } });
 };
@@ -34,7 +35,7 @@ calculateColor = async (value) => {
 const displayCarbonUsage = async (apiKey, region) => {
 	try {
 		await axios
-			.get('https://api.co2signal.com/v1/latest', {
+			.get('https://api-access.electricitymaps.com/2w97h07rvxvuaa1g/carbon-intensity/latest', {
 				params: {
 					countryCode: region,
 				},
@@ -45,20 +46,28 @@ const displayCarbonUsage = async (apiKey, region) => {
 			})
 			.then((response) => {
 				console.log(response.data);
-				let CO2 = Math.floor(response.data.data.carbonIntensity);
-
+				console.log(response.data.carbonIntensity);
+				let CO2 = Math.floor(response.data.carbonIntensity);
+				console.log(CO2);
 				calculateColor(CO2);
-
+                
 				loading.style.display = 'none';
 				form.style.display = 'none';
 				myregion.textContent = region;
-				usage.textContent =
-					Math.round(response.data.data.carbonIntensity) + ' grams (grams C02 emitted per kilowatt hour)';
-				fossilfuel.textContent =
-					response.data.data.fossilFuelPercentage.toFixed(2) +
+				usage.textContent = Math.round(response.data.carbonIntensity) + ' grams (grams C02 emitted per kilowatt hour)';
+				axios.get('https://api-access.electricitymaps.com/2w97h07rvxvuaa1g/power-breakdown/latest', {
+					params: {
+					        countryCode: region,
+				    },
+				    headers: {
+					    //please get your own token from CO2Signal https://www.co2signal.com/
+					    'auth-token': apiKey,
+				    },
+			    }).then(response2=>{
+					fossilfuel.textContent = response2.data.fossilFreePercentage.toFixed(2) +
 					'% (percentage of fossil fuels used to generate electricity)';
-				results.style.display = 'block';
-			});
+					results.style.display = 'block';})
+			})
 	} catch (error) {
 		console.log(error);
 		loading.style.display = 'none';
