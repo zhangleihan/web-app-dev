@@ -1,4 +1,4 @@
-# 事件驱动式编程 ── 建立一款打字游戏
+# 事件驱动式编程 ── 创建一款打字游戏
 
 ## 介绍
 
@@ -22,7 +22,7 @@
 
 ## 课程
 
-[通过使用事件驱动编程创建一个打字游戏](../typing-game/translations/README.zh-cn.md)
+[通过使用事件驱动编程创建一个打字游戏](../solution/translations/README.zh-cn)
 
 ## 贡献者
 

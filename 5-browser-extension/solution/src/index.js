@@ -44,6 +44,7 @@ const displayCarbonUsage = async (apiKey, region) => {
 				},
 			})
 			.then((response) => {
+				console.log(response.data);
 				let CO2 = Math.floor(response.data.data.carbonIntensity);
 
 				calculateColor(CO2);

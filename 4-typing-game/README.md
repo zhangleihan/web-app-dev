@@ -8,7 +8,7 @@ Typing is one of the most underrated skills of the developer. The ability to qui
 
 You're going to use the JavaScript, HTML and CSS skills you have built up so far to create a typing game. The game will present the player with a random quote (we're using [Sherlock Holmes](https://en.wikipedia.org/wiki/Sherlock_Holmes) quotes) and time how long the player takes to type it out accurately. You're going to use the JavaScript, HTML and CSS skills you have built up so far to create a typing game.
 
-![demo](images/demo.gif)
+![demo](../4-typing-game/images/demo.gif)
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ This lesson assumes you're familiar with the following concepts:
 
 ## Lesson
 
-[Creating a typing game by using event driven programming](./typing-game/README.md)
+[Creating a typing game by using event driven programming](../4-typing-game/typing-game/README.md)
 
 ## Credits
 

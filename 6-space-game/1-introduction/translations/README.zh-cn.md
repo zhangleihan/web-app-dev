@@ -1,6 +1,6 @@
 # 建立太空游戏 Part 1：简介
 
-![影片](../../images/pewpew.gif)
+![影片](../images/pewpew.gif)
 
 ## 课前测验
 
@@ -221,4 +221,4 @@ eventEmitter.on(Messages.HERO_MOVE_LEFT, () => {
 
 ## 作业
 
-[建立游戏雏形](assignment.zh-cn.md)
+[建立游戏雏形](./assignment.zh-cn.md)

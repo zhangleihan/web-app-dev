@@ -12,7 +12,7 @@
 
 ### 开始之前
 
-你需要先完成系列课程 ── [登入与注册表单](../../2-forms/translations/README.zh-tw.md)。你还需要安装 [Node.js](https://nodejs.org) 并[执行伺服器 API](../../api/translations/README.zh-tw.md)。
+你需要先完成系列课程 ── [登入与注册表单](../2-forms/translations/README.zh-cn.md)。你还需要安装 [Node.js](https://nodejs.org) 并[执行伺服器 API](./api/translations/README.zh-cn.md)。
 
 你可以测试伺服器是否运作正常，在终端机中输入指令：
 
@@ -27,13 +27,13 @@ curl http://localhost:5000/api
 
 传统的网页在使用者点击连结，或是提交表单资料时，重新载入全部的 HTML 页面来更新网页内容。每当资料要被更新时，伺服器就需要回传全新的 HTML 页面给浏览器处理，同时也干涉到使用者正在进行的动作，重新载入的机制也限制了许多互动功能。这种工作流程被称为*多页面应用程式(Multi-Page Application)*，简称 *MPA*。
 
-![多页面应用程式的更新流程](../images/mpa.png)
+![多页面应用程式的更新流程](./images/mpa.png)
 
 网页应用程式变得更加复杂，促使新的技术问世：[AJAX (Asynchronous JavaScript and XML)](https://zh.wikipedia.org/wiki/AJAX)。
 
 这个技巧允许网页应用程式使用 JavaScript 非同步地传递与接收伺服器的资料，不需要重新载入 HTML 页面，也反映在更快速的更新速率与更流畅的使用者体验。在接收伺服器的新资料时，目前的 HTML 页面可以被 JavaScript 利用 [DOM](https://developer.mozilla.org/docs/Web/API/Document_Object_Model) API 更新。自此之后，这种流程演变成现今的[*单一页面应用程式(Single-Page Application)*，*SPA*](https://zh.wikipedia.org/wiki/%E5%8D%95%E9%A1%B5%E5%BA%94%E7%94%A8)。
 
-![单一页面应用程式的更新流程](../images/spa.png)
+![单一页面应用程式的更新流程](./images/spa.png)
 
 在 AJAX 早期，唯一取得资料的 API 为 [`XMLHttpRequest`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)。但当代的浏览器已经建立出更方便且强大的 [`Fetch` API](https://developer.mozilla.org/docs/Web/API/Fetch_API)，它们使用 Promises 物件且更适合应用在 JSON 资料上。
 
@@ -41,7 +41,7 @@ curl http://localhost:5000/api
 
 ### 课题
 
-在[前一堂课程中](../../2-forms/translations/README.zh-tw.md)，我们制作出注册表单来建立新帐户。现在我们来加入新程式，使用现有的帐户登入，并取得其相关资料。开启档案 `app.js` 并新增函式 `login`：
+在[前一堂课程中](../2-forms/translations/README.zh-tw.md)，我们制作出注册表单来建立新帐户。现在我们来加入新程式，使用现有的帐户登入，并取得其相关资料。开启档案 `app.js` 并新增函式 `login`：
 
 ```js
 async function login() {
@@ -159,7 +159,7 @@ if (data.error) {
 
 现在，试著以不合法的帐户进行登入，你应该能看到像这样的画面：
 
-![登入出现错误讯息之截图](../images/login-error.png)
+![登入出现错误讯息之截图](./images/login-error.png)
 
 现在我们印出错误讯息，但萤幕报读器并没有做任何报读。为了让被动态加入的文字能被萤幕报读器阅读出来，我们需要使用 [Live Region](https://developer.mozilla.org/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)。这边我们使用一种 Live Region 的类型 alert：
 
@@ -227,7 +227,7 @@ function updateDashboard() {
 
 > 为了让帐户馀额漂亮地呈现，我们使用 [`toFixed(2)`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed) 这个方法，强迫数值只显示到小数点第二位。
 
-现在，每当仪表板被载入时，我们就需要呼叫函式 `updateDashboard()`。如果你已经完成[课程一的作业](../../1-template-route/translations/assignment.zh-tw.md)，就不需要额外做处理，不然你可以使用接下来的设定。
+现在，每当仪表板被载入时，我们就需要呼叫函式 `updateDashboard()`。如果你已经完成[课程一的作业](../1-template-route/translations/assignment.zh-tw.md)，就不需要额外做处理，不然你可以使用接下来的设定。
 
 加入这段程式码到函式 `updateRoute()` 的下方：
 
@@ -250,7 +250,7 @@ const routes = {
 
 ## 利用 HTML 模板动态建立表格列
 
-在[第一堂课](../../1-template-route/translations/README.zh-tw.md)中，我们使用 HTML 模板与方法 [`appendChild()`](https://developer.mozilla.org/docs/Web/API/Node/appendChild) 来做出应用程式内的转换。模板还能执行更小规模的行为，动态地改变一部份的页面
+在[第一堂课](../1-template-route/translations/README.zh-tw.md)中，我们使用 HTML 模板与方法 [`appendChild()`](https://developer.mozilla.org/docs/Web/API/Node/appendChild) 来做出应用程式内的转换。模板还能执行更小规模的行为，动态地改变一部份的页面
 
 我们使用类似的方式来显示 HTML 表格中的交易清单。
 
@@ -325,7 +325,7 @@ function updateElement(id, textOrNode) {
 
 这边有造型过后的仪表板例子：
 
-![造型化后的仪表板截图](../../images/screen2.png)
+![造型化后的仪表板截图](../images/screen2.png)
 
 ## 课后测验
 
@@ -333,4 +333,4 @@ function updateElement(id, textOrNode) {
 
 ## 作业
 
-[重构并注解你的程式码](assignment.zh-cn.md)
+[重构并注解你的程式码](./assignment.zh-cn.md)

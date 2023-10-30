@@ -20,7 +20,7 @@
 
 Performance 分页包括了效能分析工具。开启一个网页，例如 https://www.microsoft.com ，点击 'Record' 按钮并重新整理网页。停止录制后你就能取得网页的 'script'、'render' 与 'paint' 的过程与资讯：
 
-![Edge 性能分析工具](../images/profiler.png)
+![Edge 性能分析工具](./images/profiler.png)
 
 ✅ 造访 [Microsoft 文件](https://docs.microsoft.com/microsoft-edge/devtools-guide/performance/?WT.mc_id=academic-77807-sagibbon)观看 Edge 的 Performance 分页资讯
 
@@ -30,11 +30,11 @@ Performance 分页包括了效能分析工具。开启一个网页，例如 http
 
 观看它的总览面板并截图你的网页效能。
 
-![Edge 性能分析工具截图](../images/snapshot.png)
+![Edge 性能分析工具截图](./images/snapshot.png)
 
 检查 Event Log 面板，是否有网页事件花超过 15 毫秒：
 
-![Edge event log](../images/log.png)
+![Edge event log](./images/log.png)
 
 ✅ 了解你的性能分析工具！在这个网页中，开启开发者工具，检查是否有任何 bottleneck。什么是载入最久的物件？哪个又是最快的？
 
@@ -156,5 +156,5 @@ function drawIcon(value) {
 
 ## 作业
 
-[分析网页效能](assignment.zh-cn.md)
+[分析网页效能](./assignment.zh-cn.md)
 

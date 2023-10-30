@@ -12,11 +12,11 @@
 - 建立 JSON 表单资料并传送到 API 上
 - 使用新资料更新到仪表板页面上
 
-看看[伺服器 API 规格](../../api/README.zh-tw.md)来查询你需要呼叫的 API 和所需的 JSON 格式。
+看看[伺服器 API 规格](../api/README.zh-cn.md)来查询你需要呼叫的 API 和所需的 JSON 格式。
 
 这边有完成作业后的成果：
 
-!["加入交易明细"视窗的例子截图](../images/dialog.png)
+!["加入交易明细"视窗的例子截图](./images/dialog.png)
 
 ## 学习评量
 

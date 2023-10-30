@@ -99,7 +99,7 @@ curl http://localhost:5000/api
 
 你有注意到浏览器的网址列改变了吗？
 
-![截图：点击 Register 按钮后，浏览器网址列改变](../images/click-register.png)
+![截图：点击 Register 按钮后，浏览器网址列改变](./images/click-register.png)
 
 `<form>` 预设的行为：使用 [GET 方法](https://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9.3)提交表格，将表格资料接在网址后面，传送给目前网址的伺服器。然而这个方法有一些缺点：
 
@@ -121,7 +121,7 @@ curl http://localhost:5000/api
 
 现在，试著以你的名字申请新的帐户。在点击 *Register* 按钮后，你应该能看到像这样的画面：
 
-![浏览器网址为 localhost:5000/api/accounts，并显示 JSON 的资料字串。](../images/form-post.png)
+![浏览器网址为 localhost:5000/api/accounts，并显示 JSON 的资料字串。](./images/form-post.png)
 
 若所有事情都运作正常，伺服器应该会回应你的请求，附带 [JSON](https://www.json.org/json-en.html) 包含著你刚建立的帐户资料。
 
@@ -282,7 +282,7 @@ async function register() {
 
 这边有做过一些造型的最终登入页面范本。
 
-![加上 CSS 造型的登入页面截图](../images/result.png)
+![加上 CSS 造型的登入页面截图](./images/result.png)
 
 ## 课后测验
 
@@ -294,4 +294,4 @@ async function register() {
 
 ## 作业
 
-[造型化你的银行程式](assignment.zh-cn.md)
+[造型化你的银行程式](./assignment.zh-cn.md)

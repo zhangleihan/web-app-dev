@@ -12,7 +12,7 @@
 
 ### 开始之前
 
-你需要先完成[取得资料](../../3-data/translations/README.zh-tw.md)的网页开发章节。你还需要安装 [Node.js](https://nodejs.org) 并于本地端[执行伺服器 API](../../api/translations/README.zh-tw.md)以管理使用者资料。 
+你需要先完成[取得资料](../3-data/translations/README.zh-tw.md)的网页开发章节。你还需要安装 [Node.js](https://nodejs.org) 并于本地端[执行伺服器 API](../api/translations/README.zh-tw.md)以管理使用者资料。 
 
 你可以测试伺服器是否运作正常，在终端机中输入指令：
 
@@ -25,7 +25,7 @@ curl http://localhost:5000/api
 
 ## 思考状态控管
 
-在[前一堂课](../../3-data/translations/README.zh-tw.md)中，我们介绍了应用程式基本的状态，全域变数 `account` 提供登入帐户的相关银行资料。然而，现在的专案存在著一些瑕疵。试著在仪表板介面中重新整理。发生了什么事？
+在[前一堂课](../3-data/translations/README.zh-tw.md)中，我们介绍了应用程式基本的状态，全域变数 `account` 提供登入帐户的相关银行资料。然而，现在的专案存在著一些瑕疵。试著在仪表板介面中重新整理。发生了什么事？
 
 目前我们的程式码有三个问题：
 
@@ -44,7 +44,7 @@ curl http://localhost:5000/api
 
 一旦你处理好这些问题，其他问题可以被简化，甚至被一并解决。有许多可能的方法能解决这些问题，但我们使用一种常见的解法：**中心化资料与更新方式**。资料流会呈现下列模式：
 
-![HTML、使用者行为与网页状态的架构图](../images/data-flow.png)
+![HTML、使用者行为与网页状态的架构图](./images/data-flow.png)
 
 > 我们不会处理如何让资料同步触发页面的更新，这比较像是关于[回应式程式设计](https://zh.wikipedia.org/wiki/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B)的更进阶知识。当你更深入网页开发领域时，这是个很好的发展方向。
 
@@ -277,8 +277,8 @@ const routes = {
 
 ## 作业
 
-[编写"加入交易明细"视窗](assignment.zh-cn.md)
+[编写"加入交易明细"视窗](./assignment.zh-cn.md)
 
 这边有完成之后的结果：
 
-!["加入交易明细"视窗的例子截图](../images/dialog.png)
+!["加入交易明细"视窗的例子截图](./images/dialog.png)

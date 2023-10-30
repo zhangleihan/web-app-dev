@@ -1,6 +1,6 @@
 # 浏览器扩充功能专案 Part 1：关于浏览器
 
-![浏览器绘图笔记](/sketchnotes/browser.jpg)
+![浏览器绘图笔记](../../sketchnotes/browser.jpg)
 > 由 [Wassim Chegham](https://dev.to/wassimchegham/ever-wondered-what-happens-when-you-type-in-a-url-in-an-address-bar-in-a-browser-3dob) 绘制
 
 ## 课前测验
@@ -19,7 +19,7 @@
 
 ✅ 小历史：第一个网页浏览器为 'WorldWideWeb'，由 Timothy Berners-Lee 爵士于 1990 年建立。
 
-![早期的浏览器](../images/earlybrowsers.jpg)
+![早期的浏览器](./images/earlybrowsers.jpg)
 > 这边有一些早期的浏览器，请参考[Karen McGrane](https://www.slideshare.net/KMcGrane/week-4-ixd-history-personal-computing)
 
 用户使用网址 URL (Uniform Resource Locator) 位置连上网路，通常以 `http` 或 `https` 位置开头使用超文本传输协定(Hypertext Transfer Protocol)，浏览器便能与该伺服器沟通并抓取网页的资料。
@@ -46,7 +46,7 @@
 
 在你建立扩充功能以前，先看看建制与安装浏览器扩充功能的流程。每一种浏览器在管理套件上可能有些不同，Edge上的管理过程就与 Chrome 与 Firefox 相似：
 
-![Edge 浏览器开启 edge://extensions 中的设定选单截图](../images/install-on-edge.png)
+![Edge 浏览器开启 edge://extensions 中的设定选单截图](./images/install-on-edge.png)
 
 大体而言，过程为：
 
@@ -65,7 +65,7 @@
 
 - [一组 API key](https://www.co2signal.com/)：在网页上输入你的电子信箱，它会寄一组钥匙给你
 - 给[Electricity Map](https://www.electricitymap.org/map)使用的[国家区域代码](http://api.electricitymap.org/v3/zones) (举个例子，在波士顿使用'US-NEISO')
-- [程式码](../../start)，下载 `start` 资料夹，你需要修改里面的程式码档案。
+- [程式码](./start)，下载 `start` 资料夹，你需要修改里面的程式码档案。
 - [NPM](https://www.npmjs.com)，NPM 是一套软体包管理工具，在本地安装的软体包会被列在 `package.json` 档案中，成为网页利用的资源。
 
 ✅ 从[这个优质的学习套件](https://docs.microsoft.com/learn/modules/create-nodejs-project-dependencies/?WT.mc_id=academic-77807-sagibbon)中，学习更多关于软体包管理。
@@ -86,11 +86,11 @@ src
 
 这套扩充功能有两个重点。一个是取得 API Key 与国家区域代码：
 
-![在浏览器扩充功能中，显示 API key与国家区域代码的输入栏截图](../images/1.png)
+![在浏览器扩充功能中，显示 API key与国家区域代码的输入栏截图](./images/1.png)
 
 与显示国家的碳排放量：
 
-![在浏览器扩充功能中，显示 US-NEISO 地区碳排放量与石化燃料比例截图](../images/2.png)
+![在浏览器扩充功能中，显示 US-NEISO 地区碳排放量与石化燃料比例截图](./images/2.png)
 
 让我们开始建立输入栏位的 HTML 与它的 CSS 吧。
 
@@ -163,5 +163,5 @@ npm install
 
 ## 作业
 
-[重新造型你的套件](assignment.zh-cn.md)
+[重新造型你的套件](./assignment.zh-cn.md)
 

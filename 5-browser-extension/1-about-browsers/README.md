@@ -75,13 +75,15 @@ CO2 Signal's API.
 
 Take a minute to look through the codebase:
 
+```
 dist
-    -|manifest.json (defaults set here)
-    -|index.html (front-end HTML markup here)
-    -|background.js (background JS here)
-    -|main.js (built JS)
+  ├─manifest.json (defaults set here)
+  ├─index.html (front-end HTML markup here)
+  ├─background.js (background JS here)
+  ├─main.js (built JS)
 src
-    -|index.js (your JS code goes here)
+  ├─index.js (your JS code goes here)
+```
 
 ✅ Once you have your API key and Region code handy, store those somewhere in a note for future use.
 

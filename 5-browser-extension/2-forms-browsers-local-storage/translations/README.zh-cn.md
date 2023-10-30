@@ -100,7 +100,7 @@ function reset(e) {
 
 你设定 APIKey 纪录字串数值。你可以在 Edge 浏览器上「检查」一个网页 (右键浏览器来检查)，在 Applications 标籤中观察储存区的使用情况。
 
-![Local storage 区域](../images/localstorage.png)
+![Local storage 区域](./images/localstorage.png)
 
 ✅ 想想那些情况你不需要储存资料到 LocalStorage 中。总体而言，将 API Keys 放在 LocalStorage 是个很糟糕的想法！你知道为什么吗？在我们的例子中，我们的应用程式是以教学为目的，并不会发布在应用程式商店中，所以我们选择此中处理方式。
 
@@ -220,5 +220,5 @@ async function displayCarbonUsage(apiKey, region) {
 
 ## 作业
 
-[认领一项 API](assignment.zh-cn.md)
+[认领一项 API](./assignment.zh-cn.md)
 
