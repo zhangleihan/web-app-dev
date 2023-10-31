@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-		"engines": {
+	"engines": {
 		"npm": ">=9.0.0",
 		"node": ">=18.0.0"
 	},
@@ -24,6 +24,7 @@
 		"webpack-cli": "^5.1.4"
 	},
 	"dependencies": {
-		"axios": "^1.4.0"
+		"axios": "^1.4.0",
+		"node-fetch": "^2.7.0"
 	}
 }
