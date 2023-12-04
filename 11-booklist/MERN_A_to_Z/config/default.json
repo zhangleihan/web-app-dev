@@ -1,4 +1,4 @@
 {
   "mongoURI":
-    "mongodb://root:WebAppDev2022@47.243.252.247:27017/mern?authSource=admin"
+    "mongodb://userName:password@host:port/mern?authSource=admin"
 }
