@@ -1,0 +1,12 @@
+https://www.electronjs.org/
+http://www.cross-code.com/en/home
+https://openjsf.org/wp-content/uploads/sites/84/2020/02/Case_Study-Node.js-NASA.pdf
+http://www.axios-js.com/
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04
+https://nodejs.org/es/blog/release/v12.13.0/
+https://www.npmjs.com/
+https://www.npmjs.com/package/give-me-a-joke
+https://www.npmjs.com/package/colors
+https://expressjs.com/
+https://code.visualstudio.com/docs/nodejs/nodejs-tutorial
+https://www.postman.com/downloads/

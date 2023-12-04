@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const pkg = require('./package.json');
 
 // App constants
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 const apiPrefix = '/api';
 
 // Store data in-memory, not suited for production use!

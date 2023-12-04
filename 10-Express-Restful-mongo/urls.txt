@@ -1,0 +1,6 @@
+https://www.zdzn.net/
+https://ejs.bootcss.com/
+https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+https://www.npmjs.com/package/uuid
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#
+https://mongoosejs.com/
